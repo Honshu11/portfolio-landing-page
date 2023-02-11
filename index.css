@@ -1,0 +1,38 @@
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;    
+}
+
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
